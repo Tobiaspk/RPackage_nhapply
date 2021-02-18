@@ -2,6 +2,8 @@
 
 *Tobias Krause, 2018*
 
+*Find the entire project description in nhapply.pdf. Only german.*
+
 ## The Idea behind Neighbour Apply
 
 A common task when building cellular automata, pixel-simulations or similar is to apply a function on the neighbourhood of a pixel. It can be tireding, implementing such functions, so that they are efficient and flexible.
