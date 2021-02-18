@@ -1,5 +1,7 @@
 # Neighbour Apply
 
+*Tobias Krause, 2018*
+
 ## The Idea behind Neighbour Apply
 
 A common task when building cellular automata, pixel-simulations or similar is to apply a function on the neighbourhood of a pixel. It can be tireding, implementing such functions, so that they are efficient and flexible.
@@ -23,6 +25,8 @@ nhapply works like the apply family; input is a matrix, FUN is the function to a
 * **custom_neighb:** give the x-y-coordinates as columns, that describe the positions of the neighbours relatively to the center or give a matrix with 1's at the neighbours position and 0's at the rest.
 * ```nhapply(input_matrix, "maxcountvalue", neighb_type = 2, width = 3)```
 * ```nhapply(input_matrix, sum, custom_neighb = cbind(c(1, 1, -1, -1), c(1, -1, 1, -1)))```
+
+![](./Grafiken/Nbhoods.png)
 
 ## Example: Conways Game of Life
 
